@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4e1d2;
+  color: #5a3e36;
+}
+
+h2 {
+  text-align: center;
+  color: #a64b2a;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #8b5e3b;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url("images/boho-bg.jpg") no-repeat center/cover;
+  color: white;
+}
+
+.hero button {
+  padding: 10px 20px;
+  background-color: #a64b2a;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Portfolio */
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.portfolio-item img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+/* Services */
+.services-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.service {
+  background: #d6a478;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Instagram Feed */
+.insta-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.insta-container img {
+  width: 100px;
+  border-radius: 5px;
+}
+
+/* Contact */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+input,
+textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #8b5e3b;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #5a3e36;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
